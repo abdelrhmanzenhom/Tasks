@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(67, 144, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+main{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+gap:10px;
+width: 50%;
+height: 50%;
+}
+div{
+    background-color: rgb(37, 32, 32);
+    color: white;
+    text-align: center;
+    padding: 15px;
+   
+    
+}
+.one{
+   
+grid-row: 1/span 2;    
+
+}
+.two{
+grid-column: 2/span 2;
+}
+.three{
+   
+}
+.four{
+    grid-column: 3;
+    grid-row: 2/ span 2;
+  
+}
+.five{
+    grid-row: 3;
+    grid-column: 1/span 2;
+}
+main:hover{
+    
+    
+transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+
+
+
+}

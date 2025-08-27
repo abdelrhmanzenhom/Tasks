@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+aside{
+    background-color: brown;
+    width: 22vmax;
+    
+}
+header,footer{
+background-color: lightblue;
+padding: 20px;
+text-align: center;
+}
+article{
+    background-color: greenyellow;
+    width: 50vmax;
+    
+    margin-left:0.4rem ;
+    margin-right:0.4rem  ;
+    height: 80vh;
+}
+header{
+margin-bottom: 0.625rem;
+}
+footer{
+    margin-top:0.625rem ;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: stretch;
+}

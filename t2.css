@@ -1,0 +1,22 @@
+#parent{
+     border-style: solid;
+   border: 0.313rem solid black;
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+#child{
+     border-style: solid;
+   border: 0.313rem solid yellow;
+ 
+   width: 50%;               
+    height: 50%;  
+  
+   
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+
+
+ul{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.625rem;
+    flex-wrap: wrap;
+   
+}
+li{
+    width: 10rem;
+
+}
+
+ .first{
+   border-style: solid;
+   border: 0.313rem solid black;
+     height: 30em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 50em;
+   
+   
+   align-items: center;
+  
+   
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+}
+.all{
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+   
+    justify-content: space-around;
+    
+}

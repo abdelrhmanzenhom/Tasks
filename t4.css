@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+     
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap:5px;
+    margin:7px 0 ;
+    height: 84.2vh;
+}
+header,footer{
+    background-color: rgb(54, 54, 213);
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+aside{
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+article{
+    background-color: rgb(110, 162, 31);
+    color:white;
+    text-align: center;
+}
+@media (max-width:800px) {
+    
+  main{
+        grid-template-columns: 1fr 2fr;
+    }
+    
+}
+@media (max-width:500px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+    
+}
