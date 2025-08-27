@@ -30,12 +30,23 @@ article{
     
   main{
         grid-template-columns: 1fr 2fr;
+        .second{
+        grid-column: 1 / span 2;
+        }
+    
     }
     
 }
 @media (max-width:500px) {
     main{
         grid-template-columns: 1fr;
+        article{
+
+            grid-column: 1 / span 1;
+        }
+          .second{
+        grid-column: 1 / span 1;
+        }
     }
     
 }
