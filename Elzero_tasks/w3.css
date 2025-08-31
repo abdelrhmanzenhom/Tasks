@@ -154,16 +154,10 @@ padding: 1px 10px;
 }
 ol{
 
-    margin-left: 0;
+    margin-left: 15px;
     padding: 0;
 }
-ol li{
-    background-color: white;
-    list-style-position: outside;
-    margin: 5px;
-    
-    padding: 5px;
-}
+
 ul{
     margin: 0;
     padding: 0;
@@ -173,4 +167,11 @@ ul li{
     background-color: white;
     padding: 5px;
     margin: 5px;
+}
+ol>li{
+    background-color: white;
+    list-style-position: outside;
+    margin: 5px;
+    
+    padding: 5px;
 }
