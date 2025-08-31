@@ -1,0 +1,259 @@
+/* .parent{
+background-color: #EEE;
+text-transform: capitalize;
+padding: 20px;
+text-align: center;
+transition-duration: 1s;
+
+}
+.child{
+    background-color: gainsboro;
+    padding: 20px;
+    transition-delay: .5s;
+}
+.parent:hover{
+    position: relative;
+    bottom: 10px;
+  
+}
+ .child:hover{
+ position: relative;
+    top:10px
+    } */
+/* div{
+    width: 400px;
+    margin: auto;
+    font-size: 20px !important;
+    background-color: #EEE !important;
+    color: rgba(0, 0, 0,0) !important;
+    text-align: center;
+    border: none !important;
+    position: relative;
+}
+div::after{
+    content:"Elzero";
+    position: absolute;
+    color: black;
+    left:190px;
+} */
+
+
+/* :root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+} */
+
+/* div {
+  color: var(--mainColor,red);
+  border: 3px var(--mainColor,black) solid;
+  margin: 10px;
+  padding: var(--mainPadding,10px);
+} */
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    border-radius: 50%;
+    box-shadow: 5px 0 orangered,-5px 0 0 0 rgb(0, 145, 255) ;
+    justify-content: center;
+    color: orangered;
+    background-color: #EEE;
+} */
+/*  .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #EEE;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    
+ }
+ div{
+    background-color: orangered;
+    color: white;
+    width: calc(83%/3);
+    padding: 10px;
+    text-align: center;
+    
+    
+ } */
+
+
+/*  .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #EEE;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+padding: 10px;
+
+
+ }
+ .parent div{
+ 
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    padding: 10px;
+    
+ }
+ .five{
+    order: -4;
+ }
+ .three{
+    align-self: flex-end;
+ }
+ .one{
+    order:-6;
+    align-self: flex-start;
+    
+    
+ }
+ .two{
+    order: -5;
+ }
+ .four{
+    order: -3;
+ } */
+ 
+ /* .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #EEE;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    padding: 10px;
+ }
+ .parent div{
+background-color: rgb(21, 175, 150);;
+color: white;
+height: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 10px ;
+ }
+ .two{
+
+    align-self: flex-start;
+    width: 300px;
+ } */
+
+ /* .parent{
+    background-color: #EEE;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 10px;
+
+ }
+ 
+ .one{
+    background-color: orange;
+    margin-left: 200px;
+ }
+ .two{
+    background-color: lightgreen;
+    align-self: flex-end;
+    order: 3;
+  
+ }
+ .three{
+    background-color: rgb(165, 89, 42);
+ }
+ .four{
+    background-color: rgb(90, 0, 128);
+ }
+ .one,.two,.three,.four{
+     
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ */
+ :root{
+    --primeColer:rgb(183, 178, 178);
+    --normPad:10px;
+ }
+ .page{
+    background-color: #EEE;
+    padding: 2%;
+
+ }
+ .header{
+    display: flex;
+    justify-content: space-between;
+     
+    
+ }
+ .logo{
+    background-color: var(--primeColer);
+    padding:var(--normPad);
+    text-align: center;
+    width: 10%;
+    height: fit-content;
+   
+ }
+ ul{
+    list-style: none;
+     background-color: var(--primeColer);
+     text-align: center;
+   display: flex;
+   margin: 0;
+   justify-content: flex-end;
+
+   
+   width: 82%;
+     padding:var(--normPad);
+    
+ }
+ li{
+    margin-left: 10px;
+ }
+ .main-area{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+ }
+ .content ,.sidebar{
+
+background-color: var(--primeColer);
+padding: var(--normPad);
+height: 300px;
+
+
+ }
+ .sidebar{
+    width: 30%;
+ }
+ .content{
+    width: 60%;
+ }
+ 
+ .footer{
+    background-color: var(--primeColer);
+    display: flex;
+    justify-content: space-between;
+    padding: var(--normPad);
+ }
