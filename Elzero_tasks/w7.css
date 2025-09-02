@@ -50,13 +50,29 @@ div{
 }
 div::before{
     content: "";
-  width: 10px;
-  height: 10px;
+  width: 200px;
+    height: 200px;
+    border-radius: 50%;
   display: block;
   position: absolute;
-  background-color: rgb(216, 29, 92);
+  transform: translate(-10px ,-10px);
+  border:10px rgb(216, 29, 92) solid;
+  border-left:10px white solid;
+
 }
 div::after{
     content: "";
-    
+   width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  display: block;
+  position: absolute;
+  transform: translate(-10px ,-210px) scale(1.1,1.1);
+ 
+  border:10px rgb(0, 162, 255) solid;
+  border-right:10px white solid;
+  transition: .5s;
 } 
+div:hover{
+   transform: rotate(360deg);
+}
