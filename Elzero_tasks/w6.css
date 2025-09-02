@@ -1,0 +1,299 @@
+/* div{
+    width: 600px;
+    background-color: #EEE;
+    margin: auto;
+    position: relative;
+   text-align: center;
+    flex-wrap: wrap;
+    line-height: 80px;
+    border-right:8px  blueviolet solid;
+    border-left: 8px orangered solid;
+    font-weight: bold;
+    font-size: 50px;
+    
+    letter-spacing: 10px;
+    
+    
+}
+div::after{
+    content: "";
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+background-image: linear-gradient(to right,orangered 20%,rgb(0, 183, 255) 20%,rgb(0, 183, 255) 40%,green 40%,green 60%,pink 60%,pink 80%,blueviolet 80%);
+
+
+}
+div::before{
+    content: "";
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+background-image: linear-gradient(to right,orangered 20%,rgb(0, 183, 255) 20%,rgb(0, 183, 255) 40%,green 40%,green 60%,pink 60%,pink 80%,blueviolet 80%);
+
+
+}
+div::first-letter{
+content: "";
+
+    color: orangered;
+} */
+
+ /* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+ }
+ input{
+width: 600px;
+margin-top: 20px;
+caret-color: orangered;
+padding: 10px;
+border: 0;
+border-bottom: 10px linear-gradient(to right,orangered) solid;
+
+background-color: #EEE;
+position: relative;
+
+ }
+ input:after{
+    content: "adfa";
+    height: 30px;
+    width: 100%;
+    position: absolute;
+   
+
+    background-image: linear-gradient(to right,orangered 50%,rgb(60, 0, 128)50%); 
+ }
+ */
+
+ /* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3,calc(100%/3));
+  grid-template-rows: 40px 1fr;
+}
+.grid div{
+    background-color: red;
+    counter-increment: cnt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid div::before{
+    content: "Element";
+    color: white;
+
+   
+}
+.grid div::after{
+    
+    content: counter(cnt);
+    color: white;
+} */
+
+/* html{
+    min-height: 100vh;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    
+ }
+.layout{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header" 
+    "section aside" 
+    "footer footer";
+   
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    grid-area: header;
+    padding: 10px;
+}
+header::before{
+    content: "Header";
+    
+}
+section{
+    background-color: orangered;
+    color: white;
+    grid-area: section;
+}
+section::before{
+    content: "Section";
+}
+aside{
+    background-color: gray;
+    color: white;
+     grid-area: aside;
+}
+aside::before{
+    content: "Aside";
+}
+footer{
+    background-color: rgb(0, 128, 111);
+    color: white;
+    grid-area: footer;
+    padding: 10px;
+}
+footer::before{
+    content: "Footer";
+} */
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns:auto 1fr 1fr auto;
+   grid-template-rows:1fr auto;
+  gap: 15px;
+}
+.grid div{
+    background-color: rgb(61, 54, 54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(6,1fr);
+
+}
+.grid div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding:10px;
+    background-color: rgb(0, 132, 255);
+}
+.one{
+    order: 8;
+  
+    grid-column: 1/span 3;
+   
+    
+}
+.two{
+grid-column:1/span 2; 
+}
+
+.three{
+
+}
+.four{
+    grid-row:3;
+
+}
+.five{
+    order: 1;
+grid-column: span 2;
+grid-row: 3/span 3;
+}
+.six{
+grid-row: 4;
+}
+.seven{
+grid-row: 5;
+}
+.eight{
+    order: -1;
+    grid-column: 1/span 3;
+} */
+
+
+/* .grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto  auto;
+gap: 15px;
+align-content: space-between;
+
+}
+.grid div{
+    background-color: rgb(226, 38, 101);
+    text-align: center;
+    color: white;
+   
+} */
+body{
+font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.layout{
+    background-color: #EEE;
+    display: grid;
+    gap: 10px;
+    padding: 40px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+ 
+}
+.layout div{
+    background-color:white ;
+    padding: 0 15px;
+    border-bottom: 2px orangered solid;
+   
+}
+h3{
+    text-transform: capitalize;
+}
+.layout .shady {
+    background-color: black;
+    color: white;
+    grid-row: span 3;
+    
+}
+.osama{
+    grid-column: 1/span 2;
+}
+.layout .mahmoud{
+    grid-column: 2/span 2;
+    background-color: black;
+    color: white;
+}
+.ezz{
+    grid-column: 2/span 2;
+}
+.mohamed{
+    grid-row:span 2 ;
+}
+span{
+    color: #c0bfbf;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
